@@ -2,10 +2,10 @@ name: 'BrowserStack Test'
 on:
   push:
     branches:
-      - bstack
+      - main
   pull_request:
     branches:
-      - bstack
+      - main
   
   workflow_dispatch:
     inputs:
